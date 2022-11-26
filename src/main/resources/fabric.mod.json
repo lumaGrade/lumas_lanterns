@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "extended_lanterns",
+  "version": "${version}",
+
+  "name": "Extended Lanterns",
+  "description": "More lanterns",
+  "authors": [
+    "lumaGrade"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/extended_lanterns/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lumagrade.extended_lanterns.ExtendedLanterns"
+    ]
+  },
+  "mixins": [
+    "extended_lanterns.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
