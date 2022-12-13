@@ -7,5 +7,5 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup TEMPLATE_GROUP = FabricItemGroupBuilder.build(new Identifier(ExtendedLanterns.MOD_ID, "template_group"), () -> new ItemStack(ModItems.TEMPLATE_ITEM));
+    //public static final ItemGroup TEMPLATE_GROUP = FabricItemGroupBuilder.build(new Identifier(ExtendedLanterns.MOD_ID, "template_group"), () -> new ItemStack(ModItems.TEMPLATE_ITEM));
 }

@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    // public static final Item TEMPLATE_ITEM = registerItem("template_item", new Item(new FabricItemSettings().group(ModItemGroup.TEMPLATE_GROUP)));
+    //public static final Item TEMPLATE_ITEM = registerItem("template_item", new Item(new FabricItemSettings().group(ModItemGroup.TEMPLATE_GROUP)));
 
 
     private static Item registerItem(String name, Item item){

@@ -31,8 +31,11 @@ import org.jetbrains.annotations.Nullable;
 public class CustomLanternBlock extends BlockWithEntity implements BlockEntityProvider, Waterloggable {
 
     /*
-    * https://github.com/Ladysnake/Spawn-Lanterns/blob/8a1fd40fd72056bbd1d19630d913cd6dda759dd5/src/main/java/ladysnake/spawnlanterns/common/block/LanternBlockEntity.java
     * Examples about how to implement hanging and waterlogging
+    * https://fabricmc.net/wiki/tutorial:directionalblock
+    * https://fabricmc.net/wiki/tutorial:waterloggable
+    *
+    * https://github.com/Ladysnake/Spawn-Lanterns/blob/8a1fd40fd72056bbd1d19630d913cd6dda759dd5/src/main/java/ladysnake/spawnlanterns/common/block/LanternBlockEntity.java
     * Credits: https://github.com/Ladysnake
     */
 
