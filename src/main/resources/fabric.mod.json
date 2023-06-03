@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "extended_lanterns",
+  "id": "lumas_lanterns",
   "version": "${version}",
 
-  "name": "Extended Lanterns",
+  "name": "Lumas Lanterns",
   "description": "More lanterns",
   "authors": [
     "lumaGrade"
@@ -13,22 +13,24 @@
     "sources": ""
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/extended_lanterns/icon.png",
+  "license": "Code: MIT / Art: CC-BY-NC",
+  "icon": "assets/lumas_lanterns/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.lumagrade.extended_lanterns.ExtendedLanterns"
+      "com.lumagrade.lumas_lanterns.LumasLanterns"
+    ],
+    "client": [
+      "com.lumagrade.lumas_lanterns.LumasLanternsClient"
     ]
-  },
-  "mixins": [
-    "extended_lanterns.mixins.json"
-  ],
+  },"mixins": [
+  "lumas_lanterns.mixins.json"
+],
 
   "depends": {
     "fabricloader": ">=0.14.10",
-    "fabric-api": "*",
+    "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
   },

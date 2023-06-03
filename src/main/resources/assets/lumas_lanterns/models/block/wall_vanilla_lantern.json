@@ -1,0 +1,6 @@
+{
+  "parent": "lumas_lanterns:block/template_wall_custom_lantern",
+  "textures": {
+    "all": "lumas_lanterns:block/wall_vanilla_lantern"
+  }
+}

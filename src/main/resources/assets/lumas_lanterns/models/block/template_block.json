@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lumas_lanterns:block/template_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lumas_lanterns:item/wall_vanilla_lantern"
+  }
+}

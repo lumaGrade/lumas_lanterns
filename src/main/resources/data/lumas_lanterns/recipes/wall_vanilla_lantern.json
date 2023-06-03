@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:lantern"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "XX",
+    "X#"
+  ],
+  "result": {
+    "item": "lumas_lanterns:wall_vanilla_lantern"
+  }
+}

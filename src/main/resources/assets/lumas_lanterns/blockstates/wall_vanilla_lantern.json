@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "lumas_lanterns:block/wall_vanilla_lantern",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "lumas_lanterns:block/wall_vanilla_lantern",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "lumas_lanterns:block/wall_vanilla_lantern"
+    },
+    "facing=west": {
+      "model": "lumas_lanterns:block/wall_vanilla_lantern",
+      "y": 90
+    }
+  }
+}

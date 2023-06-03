@@ -1,0 +1,6 @@
+{
+  "item.lumas_lanterns.template_item": "Template Item",
+  "block.lumas_lanterns.template_block": "Template Block",
+  "itemGroup.lumas_lanterns.template_group": "Template Group",
+  "block.lumas_lanterns.wall_vanilla_lantern": "Wallmounted Lantern"
+}
