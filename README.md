@@ -1,5 +1,7 @@
 # luma's Lanterns
 luma's Lanterns adds more lanterns and makes them wall mountable.
+Updated to Minecraft 1.20
+
 ## Lanterns
 Currently on build 0.1.0 there is only wall mountable vanilla lantern.
 
@@ -82,7 +84,7 @@ You also need to register block entity on registerBlockEntities() method
     ModBlocks.PAPER_LANTERN).build(null));
 
 
-Register client renderer for a new lantern at ExtendedLanternsClient class' rergisterRenderers() method
+Register client renderer for a new lantern at ExtendedLanternsClient class' registerRenderers() method
 
     BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PAPER_LANTERN, RenderLayer.getCutout());
 
